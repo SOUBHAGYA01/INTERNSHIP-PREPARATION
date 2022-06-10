@@ -19,6 +19,7 @@ vector <int> tsum(vector<int> &num,int target)
 
          }
          m[num[i]]=i;
+         //m.insert(pair<int,int>(num[i],i));
      }
      return res;
 
